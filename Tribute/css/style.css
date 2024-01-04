@@ -1,0 +1,83 @@
+html {
+    font-family: Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 50px 20px;
+    border-radius: 5px;
+    box-shadow: #f5f5f5;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ctn-header {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 40px;
+}
+
+.main-paragraph {
+    font-style: italic;
+}
+
+.featured-image {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.ctn-biography {
+    padding: 25px 25px;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.ctn-quotes {
+    background-color: #ddd;
+    padding: 30px;
+    align-items: left;
+}
+
+.ctn-quotes blockquote {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ctn-quotes p {
+    font-style: italic;
+    margin-left: 30px;
+}
+
+.ctn-curiousities {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+    line-height: 1.5;
+}
+
+.ctn-curiousities li {
+    margin: 10px 0;
+}
+
+.img-bold{
+    margin-top: 50px;
+}
