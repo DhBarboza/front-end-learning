@@ -9,9 +9,19 @@ let isRunning = true;
 let hasCompleted = false;
 let isError = false;
 
+/*
 function cleanInputString(str) {
     const strArray = str.split("");
     let cleanStrArray = [];
 
-    for (let i = 0; i < strArray.length; i++){}
+    for (let i = 0; i < strArray.length; i++){
+        if(!["+", "-", " "].includes(strArray[i])){
+            cleanStrArray.push(strArray[i]);
+        }
+    }
+}*/
+
+function cleanInputString(str) {
+    const regex = /[+-\s]/g;
+    return str.replace(regex, "");
 }
