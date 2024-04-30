@@ -39,3 +39,7 @@
     ~~~react
     import { Name } from "./FileName"
     ~~~
+
+
+### CSS Modules
+Utilizamos os CSS Modules para evitar que a estilização de um componente não afete o outro
